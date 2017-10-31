@@ -1,6 +1,10 @@
-##RobotArtCornell2017##
+##RobotArtCornell2017
 
-####Things you will need to install before you can start running this script####
+Collaborators:
+Risa Feng
+Le (Annie) Yuan
+
+####Things you will need to install before you can start running this script
 python2.7 is the preferred version
 
 >Libraries you need to have installed:  
