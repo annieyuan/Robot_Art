@@ -1,0 +1,52 @@
+{
+  "layer1": {
+    "cmd1": [
+      {
+        "strokeType": "flat stroke",
+        "path": {
+          "startPos": "(0,0)",
+          "endPos": "(100, 0)",
+          "path": "horizontal"
+        },
+        "color": "black",
+        "brushType": "medium flat"
+      }
+    ],
+    "cmd2": [
+      {
+        "strokeType": "flat stroke",
+        "path": {
+          "startPos": "(100,0)",
+          "endPos": "(100, 100)",
+          "path": "vertical"
+        },
+        "color": "black",
+        "brushType": "medium flat"
+      }
+    ],
+    "cmd3": [
+      {
+        "strokeType": "flat stroke",
+        "path": {
+          "startPos": "(100,100)",
+          "endPos": "(0, 100)",
+          "path": "horizontal"
+        },
+        "color": "black",
+        "brushType": "medium flat"
+      }
+    ],
+    "cmd4": [
+      {
+        "strokeType": "flat stroke",
+        "path": {
+          "startPos": "(0,100)",
+          "endPos": "(0, 0)",
+          "path": "vertical"
+        },
+        "color": "black",
+        "brushType": "medium flat"
+      }
+    ]
+  }
+}

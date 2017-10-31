@@ -1,0 +1,23 @@
+#!/usr/bin/env python
+import rospy
+from brics_actuator.msg import JointVelocities
+import brics_actuator
+
+pub_youbotleap_arm = rospy.Publisher('arm_1/arm_controller/velocity_command', JointVelocities)
+rospy.init_node('arm_test')
+
+rate = rospy.Rate(20)
+
+msg = JointVelocities()
+
+msg.positions = [brics_actuator.msg.JointValue()]
+msg.velocities[0].joint_uri = "arm_joint_1"
+msg.positionsvelocities[0].unit = "rad"
+msg.positions[0].value = 0.5
+
+pub_youbotleap_arm.publish(msg)
+
+if __name__ == '__main__':
+	rospy.spin()
+
+
